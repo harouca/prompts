@@ -1,17 +1,26 @@
-# prompts
+# Prompts
 
-Repositório para armazenamento de **prompts para IA**, organizados por categoria.
+Repositório para armazenamento de **prompts para IA**, organizados por categoria e finalidade.
 
 ## Estrutura
 
 ```
 prompts/
 ├── README.md
-└── <categoria>/
-    └── <descrição-do-prompt>.md
+├── Desenvolvimento/
+│   └── Governo RO - Tela Login
+└── Governamental/
+    └── TR-criar.md
 ```
 
-Cada subdiretório representa uma categoria (ex.: `desenvolvimento`, `escrita`, `analise-documentos`), e cada arquivo dentro dele contém um prompt específico com seu contexto e objetivo.
+Cada subdiretório representa uma categoria de uso, e cada arquivo dentro dele contém um prompt específico com seu contexto, objetivo e formato esperado de resposta.
+
+## Prompts disponíveis
+
+| Categoria | Prompt | Finalidade |
+| --- | --- | --- |
+| `Desenvolvimento` | `Governo RO - Tela Login` | Gerar uma tela de autenticação premium, responsiva, com Tailwind e estrutura pronta para Laravel Blade. |
+| `Governamental` | `TR-criar.md` | Apoiar a redação inicial de Termo de Referência (TR), com base na Lei 14.133/2021 e boas práticas de contratação pública. |
 
 ## Como usar
 
@@ -22,3 +31,17 @@ Cada subdiretório representa uma categoria (ex.: `desenvolvimento`, `escrita`, 
 ## Contribuindo
 
 Sinta-se à vontade para abrir issues ou pull requests com novos prompts ou melhorias nos existentes.
+
+## Sugestão de organização
+
+Para facilitar buscas, versionamento e reutilização, prefira salvar novos prompts com extensão `.md` e nomes objetivos, por exemplo:
+
+```
+<categoria>/<tema>-<ação>.md
+```
+
+Exemplos:
+
+- `Desenvolvimento/governo-ro-tela-login.md`
+- `Governamental/tr-criar.md`
+- `Governamental/etp-analisar.md`
