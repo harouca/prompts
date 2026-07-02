@@ -5,12 +5,12 @@ Repositório para armazenamento de **prompts para IA**, organizados por categori
 ## Estrutura
 
 ```
-prompts/
-├── README.md
 ├── Desenvolvimento/
 │   └── governo-ro-tela-login.md
-└── Governamental/
-    └── tr-criar.md
+├── Governamental/
+│   └── tr-criar.md
+└── Imagens/
+    └── foto-profissional.md
 ```
 
 Cada subdiretório representa uma categoria de uso, e cada arquivo dentro dele contém um prompt específico com seu contexto, objetivo e formato esperado de resposta.
@@ -21,6 +21,7 @@ Cada subdiretório representa uma categoria de uso, e cada arquivo dentro dele c
 | --- | --- | --- |
 | `Desenvolvimento` | `governo-ro-tela-login.md` | Gerar uma tela de autenticação premium, responsiva, com Tailwind e estrutura pronta para Laravel Blade. |
 | `Governamental` | `tr-criar.md` | Apoiar a redação inicial de Termo de Referência (TR), com base na Lei 14.133/2021 e boas práticas de contratação pública. |
+| `Imagens` | `foto-profissional.md` | Transformar uma foto comum em um headshot profissional com roupa social, iluminação suave e fundo de escritório. |
 
 ## Como usar
 
@@ -44,4 +45,4 @@ Exemplos:
 
 - `Desenvolvimento/governo-ro-tela-login.md`
 - `Governamental/tr-criar.md`
-- `Governamental/etp-analisar.md`
+- `Imagens/foto-profissional.md`
