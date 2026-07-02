@@ -8,9 +8,9 @@ Repositório para armazenamento de **prompts para IA**, organizados por categori
 prompts/
 ├── README.md
 ├── Desenvolvimento/
-│   └── Governo RO - Tela Login
+│   └── governo-ro-tela-login.md
 └── Governamental/
-    └── TR-criar.md
+    └── tr-criar.md
 ```
 
 Cada subdiretório representa uma categoria de uso, e cada arquivo dentro dele contém um prompt específico com seu contexto, objetivo e formato esperado de resposta.
@@ -19,8 +19,8 @@ Cada subdiretório representa uma categoria de uso, e cada arquivo dentro dele c
 
 | Categoria | Prompt | Finalidade |
 | --- | --- | --- |
-| `Desenvolvimento` | `Governo RO - Tela Login` | Gerar uma tela de autenticação premium, responsiva, com Tailwind e estrutura pronta para Laravel Blade. |
-| `Governamental` | `TR-criar.md` | Apoiar a redação inicial de Termo de Referência (TR), com base na Lei 14.133/2021 e boas práticas de contratação pública. |
+| `Desenvolvimento` | `governo-ro-tela-login.md` | Gerar uma tela de autenticação premium, responsiva, com Tailwind e estrutura pronta para Laravel Blade. |
+| `Governamental` | `tr-criar.md` | Apoiar a redação inicial de Termo de Referência (TR), com base na Lei 14.133/2021 e boas práticas de contratação pública. |
 
 ## Como usar
 
