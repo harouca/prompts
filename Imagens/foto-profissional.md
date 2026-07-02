@@ -1,0 +1,1 @@
+Transforme minha foto em headshot profissional com roupa social e moderna, enquadramento médio, iluminação suave e natural, fundo desfocado de escritório contemporâneo, balanço de cores quente, aparência limpa e corporativa.
